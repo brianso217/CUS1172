@@ -2,65 +2,75 @@
 <html lang= "en-US">
 <head>
   <title> Brian So's Profile Page </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel= "stylesheet" media= "screen and (min-width: 641px)" href= "indexcss_web.css">
+  <link rel= "stylesheet" media= "screen and (max-width: 640px)"href= "indexcss_mobile.css">
   <meta charset= "utf-8">
+  <style>
+  /* Element selector */
+    h2 {
+      font-size: 2em;
+    }
+  </style>
+
 </head>
-<body>
-  <h1> Brian So's Profile Page </h1>
-  <h2> Table of Contents </h2>
+<body style= "background-color: #A4A4A4">
+  <h1 class="heading" style= "color:white"> Brian So's Profile Page </h1>
+  <h2 class="heading"> Table of Contents </h2>
   <table>
     <tr>
       <th> Header </th>
       <th> Link </th>
     </tr>
     <tr>
-      <td> Basic Information </td>
+      <td class= "name"> Basic Information </td>
       <td> <a href= "#about_me"> Link </a> </td>
     </tr>
     <tr>
-      <td> Education </td>
+      <td class= "name"> Education </td>
       <td> <a href= "#education"> Link </a> </td>
     </tr>
     <tr>
-      <td> Work Experience </td>
+      <td class= "name"> Work Experience </td>
       <td> <a href= "#work_experience"> Link </a> </td>
     </tr>
     <tr>
-      <td> Programming Skills </td>
+      <td class= "name"> Programming Skills </td>
       <td> <a href= "#program_lang"> Link </a> </td>
     </tr>
     <tr>
-      <td> General Interests </td>
+      <td class= "name"> General Interests </td>
       <td> <a href= "#hobbies"> Link </a> </td>
     </tr>
     <tr>
-      <td> Favorite Media </td>
+      <td class= "name"> Favorite Media </td>
       <td> <a href= "#fav_media"> Link </a> </td>
     </tr>
     <tr>
-      <td> Favorite Site </td>
+      <td class= "name"> Favorite Site </td>
       <td> <a href= "#fav_site"> Link </a> </td>
     </tr>
     <tr>
-      <td> Project List </td>
+      <td class= "name"> Project List </td>
       <td> <a href= "#project_list"> Link </a> </td>
   </table>
 
   <div id="about_me">
-    <h2> Basic Information </h2>
+    <h2 class="heading"> Basic Information </h2>
       <p> Hello, my name is Brian So, and I am in my final year at St. John's University for my computer science degree! </p>
-      <img src= "Me.jpg" width= 25% height =25%> </img>
-      <p> Me two years ago!! </p>
+      <img class= "content, screen_only"src= "Me.jpg" width= 25% height =25% > </img>
+
   </div>
 
   <div id= "education">
-    <h2> Education Summary Section </h2>
+    <h2 class="heading"> Education Summary Section </h2>
       <p> I graduated high school in 2016. Then, I entered St. John's University as a Physician's Assistant major. However, I
           ended up switching majors at the end of my sophomore year to computer science. </p>
   </div>
 
   <div id= "work_experience">
-    <h2> Work/Project Experience </h2>
-      <ul>
+    <h2 class="heading"> Work/Project Experience </h2>
+      <ul class= "list">
         <li> Summer Camp Counselor </li>
         <li> Cashier at a Restaurant </li>
         <li> Library Project for Software Design Methods </li>
@@ -68,39 +78,46 @@
   </div>
 
   <div id= "program_lang">
-    <h2> Programming Skills </h2>
+    <h2 class="heading"> Programming Skills </h2>
       <p> My knowledge in programming is centered around Java, which I am proficient at (due to courses in St. John's). However,
           I am planning on learning Python and more languages relating to web development in the future, such as React, Angular,
           and Node.js. </p>
   </div>
 
   <div id= "hobbies">
-    <h2> General Interests </h2>
+    <h2 class="heading"> General Interests </h2>
       <p> Before quarantine, I enjoyed going outside to play basketball, or exploring restaurants with my friends. Ever since
           quarantine began, I took up an interest in cooking. </p>
   </div>
 
   <div id= "fav_media">
-    <h2> Favorite Song, Film, TV Show </h2>
-      <h4> My Favorite Song </h4>
-        <iframe width="640" height="360" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <h4> Favorite Film </h4>
-        <img src= "https://resizing.flixster.com/XMrlLbfABWlVEnDwJIJpzV_r6Fc=/206x305/v1.bTsxMTE2Njc4MjtqOzE4NjI0OzEyMDA7ODAwOzEyMDA"></img>
-        <h5> I don't usually watch films, but this one was one of my favorites </h5>
-      <h4> Favorite Show </h4>
-        <img src= "https://i.ytimg.com/vi/jVzJqCBQv8k/maxresdefault.jpg" width= 40% height= 40%></img>
+    <h2 class="heading"> Favorite Song, Film, TV Show </h2>
+      <h4 class= "heading"> My Favorite Song </h4>
+        <iframe class= "content" width="640" height="360" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <h4 class= "heading"> Favorite Film </h4>
+        <img class= "content" src= "https://resizing.flixster.com/XMrlLbfABWlVEnDwJIJpzV_r6Fc=/206x305/v1.bTsxMTE2Njc4MjtqOzE4NjI0OzEyMDA7ODAwOzEyMDA"></img>
+
+      <h4 class=heading> Favorite Show </h4>
+        <img class= "content" src= "https://i.ytimg.com/vi/jVzJqCBQv8k/maxresdefault.jpg" width= 40% height= 40%></img>
   </div>
 
   <div id= "fav_site">
-    <h2> Favorite Website </h2>
+    <h2 class="heading"> Favorite Website </h2>
       <p> My favorite website to use is <a href= "https://www.youtube.com" target= "_blank"> Youtube.</a> This is due to the sheer amount of content
         available on the website that people can explore. Sometimes you go on there to listen to music and end up watching conspiracy theories that
         make absolutely no sense </p>
+        <form class= "content">
+          <label for="choice"> Do you enjoy using Youtube? </label><br>
+          <input type= "radio" id="yes" name="choice" value= "yes">
+          <label for= "yes"> Yes </label> <br>
+          <input type= "radio" id="no" name= "choice" value= "no">
+          <label for= "no"> No </label> <br>
+          <input type= "submit">
   </div>
 
   <div id= "project_list">
-    <h2> Project List </h2>
-    <ol>
+    <h2 class="heading"> Project List </h2>
+    <ol class="list">
       <li> <a href= "ProfilePage.html"> My Profile Page! </li>
     </ol>
   </div>
