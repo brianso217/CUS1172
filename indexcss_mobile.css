@@ -68,7 +68,7 @@ p{
   text-align: center;
 }
 @media print{
-  .screen_only{
+  .content{
     display:none;
   }
 }
