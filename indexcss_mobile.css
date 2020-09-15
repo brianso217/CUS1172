@@ -1,0 +1,74 @@
+
+
+.heading{
+  background-color: #41FFE5;
+  color: black;
+
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Comic Sans MS";
+  text-decoration: underline;
+  text-align: center;
+}
+
+
+.name{
+  font-weight: bolder;
+}
+
+table {
+  font-size: 16px;
+  text-align: center;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  border-collapse: collapse;
+  width: 40%;
+  background-color: white;
+  vertical-align: center;
+  line-height: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+th{
+  border: 3px solid black;
+  background-color: #28E9E9;
+  font-size: 16px;
+}
+td{
+  border: 2px solid black;
+}
+tr:hover{
+  background-color: #79D40B;
+}
+.content{
+  border: 2px solid black;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+}
+
+p{
+  font-size: 16px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom:10px;
+  background-color: red;
+}
+
+.list{
+  background-color: #CD6F04;
+  width: 30%;
+  height: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+@media print{
+  .content{
+    display:none;
+  }
+}
