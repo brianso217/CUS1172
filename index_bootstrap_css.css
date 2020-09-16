@@ -1,0 +1,54 @@
+
+
+.heading{
+  color: #41FFE5;
+  background-color: black;
+
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Comic Sans MS";
+  text-decoration: underline;
+
+}
+
+
+.name{
+  font-weight: bolder;
+}
+
+  .table {
+  font-size: 20px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: black;
+  border-collapse: collapse;
+  background-color: white;
+  vertical-align: center;
+  line-height: 30px;
+
+}
+
+tbody{
+  border: 3px solid black;
+}
+tr:hover{
+  background-color: #79D40B;
+}
+.content{
+  border: 3px solid black;
+}
+
+p{
+  font-size: 20px;
+  background-color: red;
+}
+
+label{
+  font-weight:bolder;
+  text-decoration:underline;
+}
+.list-unstyled{
+  background-color: #CD6F04;
+  font-weight:bolder;
+  text-decoration:underline
+}
