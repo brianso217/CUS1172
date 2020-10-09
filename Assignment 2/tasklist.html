@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset= "utf-8">
+    <script src= "tasklistjs.js">
+    </script>
+    <style>
+      h1{
+        font-size: 3em;
+      }
+      #task{
+        border: 2px solid black;
+      }
+      p{
+        font-weight: bolder;
+      }
+    </style>
+    <title> Task List </title>
+  </head>
+  <body style= "background-color: grey ; text-align: center">
+    <h1> Task List </h1>
+    <p> For this task list, high-priority items will be highlighted in <span style= "color:red"> RED </span>, medium-priority items in <span style="color:yellow"> YELLOW </span>,
+       and low-priority in <span style="color:green"> GREEN </span> </p>
+    <p> Clicking the COMPLETE Button will cross out that task. Task will not be removed from list until REMOVE button is clicked! </p>
+    <ul id= "task_list">
+    </ul>
+    <form id="new-task">
+       <span style= "font-weight: bolder">New Task: </span> <input id="task" autocomplete="off" placeholder="New Task" type="text">
+      <select id="priority-change">
+        <option value="red"> High-Priority </option>
+        <option value="yellow"> Medium-Priority </option>
+        <option value="green"> Low-Priority </option>
+      </select>
+      <input id="submit" type="submit">
+      <hr>
+      <a href= "index.html">Return to Index Page! </a>
+  </body>
+</html>
