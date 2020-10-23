@@ -1,446 +1,357 @@
 {
   "question_list1": [
-    { 
-      "number": 1, 
-      "question": "1+1=?", 
+    {
+      "number": 1,
+      "type": "mult_choice",
+      "question": "Which of these tags are NOT related to lists?",
       "answers": [
-      "2", 
-      "3", 
-      "4", 
-      "5" 
+      "<ul>",
+      "<ol>",
+      "<li>",
+      "<ll>"
+      ],
+      "correct_answer": 3
+    },
+     {
+      "number": 2,
+      "type": "true_false",
+      "question": "CSS stands for Cascading Style Sheets.",
+      "answers": [
+        "True",
+        "False",
       ],
       "correct_answer": 0
     },
-     { 
-      "number": 2, 
-      "question": "1+1=?", 
+     {
+      "number": 3,
+      "type": "fill_blank_text",
+      "question": "The tag for paragraph is ___",
+      "correct_answer": "<p>"
+    },
+     {
+      "number": 4,
+      "type": "true_false",
+      "question": "You can link to a new tab using the target= '_blank' attribute.",
       "answers": [
-      "2", 
-      "3", 
-      "4", 
-      "5" 
+        "True",
+        "False",
       ],
       "correct_answer": 0
     },
-     { 
-      "number": 3, 
-      "question": "1+1=?", 
+     {
+      "number": 5,
+      "type": "fill_blank_text",
+      "question": "HTML stands for ____ Text Markup Language",
+      "correct_answer": "Hyper"
+    },
+     {
+      "number": 6,
+      "type": "text_response",
+      "question": "Where is the visible content of HTML code located?",
+      "correct_answer": "body"
+    },
+     {
+      "number": 7,
+      "type": "fill_blank_text",
+      "question": "Inline CSS styling uses the <____> tag",
+      "correct_answer": "style"
+    },
+     {
+      "number": 8,
+      "type": "mult_choice",
+      "question": "Which one of these headings is the largest?",
       "answers": [
-      "2", 
-      "3", 
-      "4", 
-      "5" 
+      "<h1>",
+      "<h2>",
+      "<h6>",
+      "<h4>"
+      ],
+      "correct_answer": 2
+    },
+     {
+      "number": 9,
+      "type": "true_false",
+      "question": "There is only one way to style using CSS.",
+      "answers": [
+        "True",
+        "False",
+      ],
+      "correct_answer": 1
+    },
+     {
+      "number": 10,
+      "type": "mult_choice",
+      "question": "Which one of these is NOT a <table> element?",
+      "answers": [
+      "<tr>",
+      "<td>",
+      "<tl>",
+      "<thead>"
+      ],
+      "correct_answer": 2
+    },
+    {
+      "number": 11,
+      "type": "text_response",
+      "question": "What is the correct way to make a textarea input field?",
+      "correct_answer": "<input type= "textarea">"
+    },
+    {
+      "number": 12,
+      "type": "true_false",
+      "question": "<br> is used for line breaks",
+      "answers": [
+      "True",
+      "False",
       ],
       "correct_answer": 0
     },
-     { 
-      "number": 4, 
-      "question": "1+1=?", 
+    {
+      "number": 13,
+      "type": "mult_choice",
+      "question": "The title of the page should be inside of which section?",
       "answers": [
-      "2", 
-      "3", 
-      "4", 
-      "5" 
+      "<body>",
+      "<head>",
+      "<script>",
+      "<style>"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "number": 14,
+      "type": "text_response",
+      "question": "What is the attribute used for images?",
+      "correct_answer": "<img>"
+    },
+    {
+      "number": 15,
+      "type": "true_false",
+      "question": "<ol> is used for unordered lists",
+      "answers": [
+      "True",
+      "False"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "number": 16,
+      "type": "fill_blank_text",
+      "question": "The ____ attribute is a hint for an expected text field",
+      "correct_answer": "placeholder"
+    },
+    {
+      "number": 17,
+      "type": "mult_choice",
+      "question": "The current <!DOCTYPE> for HTML is ?",
+      "answers": [
+      "2",
+      "3",
+      "4",
+      "5"
+      ],
+      "correct_answer": 3
+    },
+    {
+      "number": 18,
+      "type": "true_false",
+      "question": "Javascript is written within a <script> tag.",
+      "answers": [
+        "True",
+        "False",
       ],
       "correct_answer": 0
     },
-     { 
-      "number": 5, 
-      "question": "1+1=?", 
+    {
+      "number": 19,
+      "type": "mult_choice",
+      "question": "This is NOT a type of inputs for forms",
       "answers": [
-      "2", 
-      "3", 
-      "4", 
-      "5" 
+      "radio",
+      "checkbox",
+      "textarea",
+      "placeholder"
       ],
-      "correct_answer": 0
+      "correct_answer": 3
     },
-     { 
-      "number": 6, 
-      "question": "1+1=?", 
-      "answers": [
-      "2", 
-      "3", 
-      "4", 
-      "5" 
-      ],
-      "correct_answer": 0
-    },
-     { 
-      "number": 7, 
-      "question": "1+1=?", 
-      "answers": [
-      "2", 
-      "3", 
-      "4", 
-      "5" 
-      ],
-      "correct_answer": 0
-    },
-     { 
-      "number": 8, 
-      "question": "1+1=?", 
-      "answers": [
-      "2", 
-      "3", 
-      "4", 
-      "5" 
-      ],
-      "correct_answer": 0
-    },
-     { 
-      "number": 9, 
-      "question": "1+1=?", 
-      "answers": [
-      "2", 
-      "3", 
-      "4", 
-      "5" 
-      ],
-      "correct_answer": 0
-    },
-     { 
-      "number": 10, 
-      "question": "1+1=?", 
-      "answers": [
-      "2", 
-      "3", 
-      "4", 
-      "5" 
-      ],
-      "correct_answer": 0
-    },
-    { 
-      "number": 11, 
-      "question": "1+1=?", 
-      "answers": [
-      "2", 
-      "3", 
-      "4", 
-      "5" 
-      ],
-      "correct_answer": 0
-    },
-    { 
-      "number": 12, 
-      "question": "1+1=?", 
-      "answers": [
-      "2", 
-      "3", 
-      "4", 
-      "5" 
-      ],
-      "correct_answer": 0
-    },
-    { 
-      "number": 13, 
-      "question": "1+1=?", 
-      "answers": [
-      "2", 
-      "3", 
-      "4", 
-      "5" 
-      ],
-      "correct_answer": 0
-    },
-    { 
-      "number": 14, 
-      "question": "1+1=?", 
-      "answers": [
-      "2", 
-      "3", 
-      "4", 
-      "5" 
-      ],
-      "correct_answer": 0
-    },
-    { 
-      "number": 15, 
-      "question": "1+1=?", 
-      "answers": [
-      "2", 
-      "3", 
-      "4", 
-      "5" 
-      ],
-      "correct_answer": 0
-    },
-    { 
-      "number": 16, 
-      "question": "1+1=?", 
-      "answers": [
-      "2", 
-      "3", 
-      "4", 
-      "5" 
-      ],
-      "correct_answer": 0
-    },
-    { 
-      "number": 17, 
-      "question": "1+1=?", 
-      "answers": [
-      "2", 
-      "3", 
-      "4", 
-      "5" 
-      ],
-      "correct_answer": 0
-    },
-    { 
-      "number": 18, 
-      "question": "1+1=?", 
-      "answers": [
-      "2", 
-      "3", 
-      "4", 
-      "5" 
-      ],
-      "correct_answer": 0
-    },
-    { 
-      "number": 19, 
-      "question": "1+1=?", 
-      "answers": [
-      "2", 
-      "3", 
-      "4", 
-      "5" 
-      ],
-      "correct_answer": 0
-    },
-    { 
-      "number": 20, 
-      "question": "1+1=?", 
-      "answers": [
-      "2", 
-      "3", 
-      "4", 
-      "5" 
-      ],
-      "correct_answer": 0
+    {
+      "number": 20,
+      "type": "fill_blank_text",
+      "question": "The tag used within HTML files for Javascript is the <____> tag.",
+      "correct_answer": "script"
     }
   ],
   "question_list2": [
-    { 
-      "number": 1, 
-      "question": "1+1=?", 
+    {
+      "number": 1,
+      "type": "fill_blank_text",
+      "question": "Printing a statement in Java can be done using System.__.println("");",
+      "correct_answer": "out"
+    },
+    {
+      "number": 2,
+      "type": "mult_choice",
+      "question": "This is NOT a primitive type of Java",
       "answers": [
-      "2", 
-      "3", 
-      "4", 
-      "5" 
+      "string",
+      "byte",
+      "char",
+      "arrays"
+      ],
+      "correct_answer": 3
+    },
+    {
+      "number": 3,
+      "type": "fill_blank_text",
+      "question": "There are ___ types of primitive data types relating to numbers",
+      "correct_answer": "6"
+    },
+    {
+      "number": 4,
+      "type": "text_response",
+      "question": "The typical class in Java is not private, but _____",
+      "correct_answer": "public"
+    },
+    {
+      "number": 5,
+      "type": "mult_choice",
+      "question": "These are ways to iterate in Java",
+      "answers": [
+      "for loop",
+      "count by hand",
+      "while loop",
+      "for each loop"
+
+      ],
+      "correct_answer": 1
+    },
+    {
+      "number": 6,
+      "type": "fill_blank_text",
+      "question": "The beginning of the main class of Java is 'public ____ void main'",
+      "correct_answer": "static"
+    },
+    {
+      "number": 7,
+      "type": "true_false",
+      "question": "Java is derived from Javascript",
+      "answers": [
+        "True",
+        "False",
+      ],
+      "correct_answer": 1
+    },
+    {
+      "number": 8,
+      "type": "text_response",
+      "question": "Java originally was created by this company",
+      "correct_answer": "Sun Microsystems"
+    },
+    {
+      "number": 9,
+      "type": "true_false",
+      "question": "Java is an object-oriented programming language",
+      "answers": [
+        "True",
+        "False",
       ],
       "correct_answer": 0
     },
-    { 
-      "number": 2, 
-      "question": "1+1=?", 
-      "answers": [
-      "2", 
-      "3", 
-      "4", 
-      "5" 
-      ],
-      "correct_answer": 0
+    {
+      "number": 10,
+      "type": "fill_blank_text",
+      "question": "Variables must be defined by their ____",
+      "correct_answer": "type"
     },
-    { 
-      "number": 3, 
-      "question": "1+1=?", 
+    {
+      "number": 11,
+      "type": "mult_choice",
+      "question": "Java was released in the year",
       "answers": [
-      "2", 
-      "3", 
-      "4", 
-      "5" 
+      "2000",
+      "1998",
+      "1993",
+      "1995"
       ],
-      "correct_answer": 0
+      "correct_answer": 3
     },
-    { 
-      "number": 4, 
-      "question": "1+1=?", 
+    {
+      "number": 12,
+      "type": "true_false",
+      "question": "Java is still owned by Sun Microsystems",
       "answers": [
-      "2", 
-      "3", 
-      "4", 
-      "5" 
+        "True",
+        "False",
       ],
-      "correct_answer": 0
+      "correct_answer": 1
     },
-    { 
-      "number": 5, 
-      "question": "1+1=?", 
-      "answers": [
-      "2", 
-      "3", 
-      "4", 
-      "5" 
-      ],
-      "correct_answer": 0
+    {
+      "number": 13,
+      "type": "fill_blank_text",
+      "question": "True or false data types are referred to as _____",
+      "correct_answer": "boolean"
     },
-    { 
-      "number": 6, 
-      "question": "1+1=?", 
-      "answers": [
-      "2", 
-      "3", 
-      "4", 
-      "5" 
-      ],
-      "correct_answer": 0
+    {
+      "number": 14,
+      "type": "text_response",
+      "question": "Constructors are used for what purpose?",
+      "correct_answer": "Initializing objects"
     },
-    { 
-      "number": 7, 
-      "question": "1+1=?", 
+    {
+      "number": 15,
+      "type": "mult_choice",
+      "question": "Text variables are known as",
       "answers": [
-      "2", 
-      "3", 
-      "4", 
-      "5" 
+      "float",
+      "text",
+      "String",
+      "byte"
       ],
-      "correct_answer": 0
+      "correct_answer": 2
     },
-    { 
-      "number": 8, 
-      "question": "1+1=?", 
+    {
+      "number": 16,
+      "type": "true_false",
+      "question": "Comments are written using \\",
       "answers": [
-      "2", 
-      "3", 
-      "4", 
-      "5" 
+        "True",
+        "False",
       ],
-      "correct_answer": 0
+      "correct_answer": 1
     },
-    { 
-      "number": 9, 
-      "question": "1+1=?", 
-      "answers": [
-      "2", 
-      "3", 
-      "4", 
-      "5" 
-      ],
-      "correct_answer": 0
+    {
+      "number": 17,
+      "type": "text_response",
+      "question": "What is the method to get an array, x's length?",
+      "correct_answer": "x.length();"
     },
-    { 
-      "number": 10, 
-      "question": "1+1=?", 
+    {
+      "number": 18,
+      "type": "mult_choice",
+      "question": "Comparing values can be done with this operator",
       "answers": [
-      "2", 
-      "3", 
-      "4", 
-      "5" 
+      "!!",
+      "--",
+      "&&",
+      "=="
       ],
-      "correct_answer": 0
+      "correct_answer": 3
     },
-    { 
-      "number": 11, 
-      "question": "1+1=?", 
+    {
+      "number": 19,
+      "type": "true_false",
+      "question": "Java 13 is still supported.",
       "answers": [
-      "2", 
-      "3", 
-      "4", 
-      "5" 
+        "True",
+        "False",
       ],
-      "correct_answer": 0
+      "correct_answer": 1
     },
-    { 
-      "number": 12, 
-      "question": "1+1=?", 
-      "answers": [
-      "2", 
-      "3", 
-      "4", 
-      "5" 
-      ],
-      "correct_answer": 0
-    },
-    { 
-      "number": 13, 
-      "question": "1+1=?", 
-      "answers": [
-      "2", 
-      "3", 
-      "4", 
-      "5" 
-      ],
-      "correct_answer": 0
-    },
-    { 
-      "number": 14, 
-      "question": "1+1=?", 
-      "answers": [
-      "2", 
-      "3", 
-      "4", 
-      "5" 
-      ],
-      "correct_answer": 0
-    },
-    { 
-      "number": 15, 
-      "question": "1+1=?", 
-      "answers": [
-      "2", 
-      "3", 
-      "4", 
-      "5" 
-      ],
-      "correct_answer": 0
-    },
-    { 
-      "number": 16, 
-      "question": "1+1=?", 
-      "answers": [
-      "2", 
-      "3", 
-      "4", 
-      "5" 
-      ],
-      "correct_answer": 0
-    },
-    { 
-      "number": 17, 
-      "question": "1+1=?", 
-      "answers": [
-      "2", 
-      "3", 
-      "4", 
-      "5" 
-      ],
-      "correct_answer": 0
-    },
-    { 
-      "number": 18, 
-      "question": "1+1=?", 
-      "answers": [
-      "2", 
-      "3", 
-      "4", 
-      "5" 
-      ],
-      "correct_answer": 0
-    },
-    { 
-      "number": 19, 
-      "question": "1+1=?", 
-      "answers": [
-      "2", 
-      "3", 
-      "4", 
-      "5" 
-      ],
-      "correct_answer": 0
-    },
-    { 
-      "number": 20, 
-      "question": "1+1=?", 
-      "answers": [
-      "2", 
-      "3", 
-      "4", 
-      "5" 
-      ],
-      "correct_answer": 0
+    {
+      "number": 20,
+      "type": "fill_blank_text",
+      "question": "A method without a return value uses the _____ keyword",
+      "correct_answer": "void"
     }
   ]
 }
