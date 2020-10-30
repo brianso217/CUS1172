@@ -1,7 +1,7 @@
 var viewSource= [
 {
-  welcomeText: "Select a Quiz!"
-  startButton1: "HTML Quiz"
+  welcomeText: "Select a Quiz!",
+  startButton1: "HTML Quiz",
   startButton2: "Java Quiz"
 }
 
